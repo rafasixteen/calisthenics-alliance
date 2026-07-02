@@ -1,0 +1,11 @@
+# MacOS Files
+.DS_Store
+
+# Node.js Build Files
+node_modules/
+package-lock.json
+
+# VSCode Settings
+.vscode/
+*.code-workspace
+*.cspell
