@@ -15,7 +15,7 @@
 
 # Installation
 
-This project is a simple static website (HTML, CSS, JavaScript). No build step is required.
+This project is a simple static website (HTML, CSS, JavaScript), built with NextJS.
 
 - Make sure you have Node.js (which includes npm and npx) installed.
 
