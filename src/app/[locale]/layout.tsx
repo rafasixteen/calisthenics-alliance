@@ -1,6 +1,6 @@
 import { routing } from "@/i18n/routing";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
-import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { Roboto_Slab, Geist, Geist_Mono } from "next/font/google";
 import { cn } from "@/lib/utils";

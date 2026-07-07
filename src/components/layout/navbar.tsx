@@ -10,18 +10,22 @@ export function Navbar() {
 			<div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 md:grid md:grid-cols-3">
 				{/* Left: Logo */}
 				<div className="flex justify-start">
-					<Link href="/" locale={locale} className="font-semibold tracking-tight">
+					<Link href="/" className="font-semibold tracking-tight">
 						CAL
 					</Link>
 				</div>
 
 				{/* Center: Links */}
 				<nav className="hidden justify-center gap-8 text-sm text-muted-foreground md:flex">
-					<Link href="/regulation" locale={locale} className="transition hover:text-foreground">
+					<a
+						href={`/regulations/${locale}.pdf`}
+						target="_blank"
+						rel="noopener noreferrer"
+						className="transition hover:text-foreground">
 						{translations("regulation")}
-					</Link>
+					</a>
 
-					<Link href="/rankings" locale={locale} className="transition hover:text-foreground">
+					<Link href="/rankings" className="transition hover:text-foreground">
 						{translations("rankings")}
 					</Link>
 				</nav>
