@@ -1,17 +1,18 @@
 import Image from "next/image";
 import { Marquee, MarqueeItem, MarqueeContent } from "@/components/kibo-ui/marquee";
 import { useTranslations } from "next-intl";
+import { url } from "@/lib/url";
 
 interface Sponsor {
 	name: string;
-	src: string;
+	src: string | (() => string);
 	scale?: number;
 }
 
 const sponsors: Sponsor[] = [
 	{
 		name: "BG Bars",
-		src: "/logos/bg-bars.svg",
+		src: () => url("/logos/bg-bars.svg"),
 		scale: 0.7,
 	},
 	{
@@ -61,10 +62,12 @@ export function Sponsors() {
 }
 
 function SponsorLogo({ sponsor }: { sponsor: Sponsor }) {
+	const src = typeof sponsor.src === "function" ? sponsor.src() : sponsor.src;
+
 	return (
 		<div className="group flex h-16 max-w-40 items-center justify-center">
 			<Image
-				src={sponsor.src}
+				src={src}
 				alt={sponsor.name}
 				width={220}
 				height={80}

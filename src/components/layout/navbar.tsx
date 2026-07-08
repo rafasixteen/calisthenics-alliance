@@ -2,7 +2,7 @@
 
 import { Link } from "@/i18n/navigation";
 import { useLocale, useTranslations } from "next-intl";
-import NextLink from "next/link";
+import { url } from "@/lib/url";
 
 export function Navbar() {
 	const locale = useLocale();
@@ -20,13 +20,13 @@ export function Navbar() {
 
 				{/* Center: Links */}
 				<nav className="hidden justify-center gap-8 text-sm text-muted-foreground md:flex">
-					<NextLink
-						href={`/regulations/${locale}.pdf`}
+					<a
+						href={url(`/regulations/${locale}.pdf`)}
 						target="_blank"
 						rel="noopener noreferrer"
 						className="transition hover:text-foreground">
 						{translations("regulation")}
-					</NextLink>
+					</a>
 
 					<Link href="/rankings" className="transition hover:text-foreground">
 						{translations("rankings")}

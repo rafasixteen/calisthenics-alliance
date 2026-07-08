@@ -3,7 +3,7 @@ import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { Roboto_Slab, Geist, Geist_Mono } from "next/font/google";
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/cn";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Navbar, Footer } from "@/components/layout";
 

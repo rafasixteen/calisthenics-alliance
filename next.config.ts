@@ -1,6 +1,6 @@
 import createNextIntlPlugin from "next-intl/plugin";
 import type { NextConfig } from "next";
-import { getBasePath } from "@/lib/utils";
+import { getBasePath } from "@/lib/cn";
 
 const withNextIntl = createNextIntlPlugin();
 
