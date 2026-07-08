@@ -1,32 +1,24 @@
+import { useTranslations } from "next-intl";
+
 export function Features() {
+	const translations = useTranslations("home.features");
+	const features = ["rankings", "events"];
+
 	return (
 		<section className="px-6 py-20">
 			<div className="mx-auto max-w-6xl">
-				<h2 className="text-center text-3xl font-semibold tracking-tight">
-					Built for athletes and competitions
-				</h2>
+				<h2 className="text-center text-3xl font-semibold tracking-tight">{translations("title")}</h2>
 
-				<div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-3">
-					<div className="rounded-xl border p-6">
-						<h3 className="font-medium">Global Rankings</h3>
-						<p className="mt-2 text-sm text-muted-foreground">
-							Track athlete performance across official competitions.
-						</p>
-					</div>
+				<div className="mt-12 flex flex-col justify-center gap-6 md:flex-row">
+					{features.map((feature) => (
+						<div key={feature} className="flex-1 rounded-xl border p-6">
+							<h3 className="font-medium">{translations(`${feature}.title`)}</h3>
 
-					<div className="rounded-xl border p-6">
-						<h3 className="font-medium">Live Events</h3>
-						<p className="mt-2 text-sm text-muted-foreground">
-							Follow competitions and results in real time.
-						</p>
-					</div>
-
-					<div className="rounded-xl border p-6">
-						<h3 className="font-medium">Athlete Profiles</h3>
-						<p className="mt-2 text-sm text-muted-foreground">
-							Showcase stats, progress, and achievements.
-						</p>
-					</div>
+							<p className="mt-2 text-sm text-muted-foreground">
+								{translations(`${feature}.description`)}
+							</p>
+						</div>
+					))}
 				</div>
 			</div>
 		</section>

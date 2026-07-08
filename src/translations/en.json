@@ -4,7 +4,34 @@
 		"description": "Calisthenics Alliance is a community of calisthenics enthusiasts."
 	},
 	"home": {
-		"welcome": "Welcome to our website!"
+		"hero": {
+			"title": "Calisthenics Alliance League",
+			"description": "A global competitive league for calisthenics athletes. Rankings and events in one place.",
+			"cta": "View rankings"
+		},
+		"highlight": {
+			"title": "Real competition, real rankings",
+			"description": "CAL brings structure to calisthenics competitions with standardized scoring and rankings."
+		},
+		"features": {
+			"title": "Built for athletes and competitions",
+			"rankings": {
+				"title": "Rankings",
+				"description": "Track athlete performance across official competitions."
+			},
+			"events": {
+				"title": "Live Events",
+				"description": "Follow competitions and results in real time."
+			}
+		},
+		"cta": {
+			"title": "Join the league",
+			"description": "Compete, track your progress, and rank among the best athletes worldwide.",
+			"button": "Get started"
+		},
+		"sponsors": {
+			"trusted": "Trusted by brands and communities"
+		}
 	},
 	"navbar": {
 		"regulation": "Regulation",

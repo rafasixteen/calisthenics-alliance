@@ -4,7 +4,34 @@
 		"description": "Calisthenics Alliance é uma comunidade de entusiastas de calistenia."
 	},
 	"home": {
-		"welcome": "Bem-vindo ao nosso site!"
+		"hero": {
+			"title": "Calisthenics Alliance League",
+			"description": "Uma liga competitiva global para atletas de calistenia. Rankings e eventos num só lugar.",
+			"cta": "Ver rankings"
+		},
+		"highlight": {
+			"title": "Competição real, rankings reais",
+			"description": "A CAL traz estrutura às competições de calistenia com pontuação padronizada e rankings."
+		},
+		"features": {
+			"title": "Criado para atletas e competições",
+			"rankings": {
+				"title": "Rankings",
+				"description": "Acompanha o desempenho dos atletas em competições oficiais."
+			},
+			"events": {
+				"title": "Eventos ao Vivo",
+				"description": "Segue competições e resultados em tempo real."
+			}
+		},
+		"cta": {
+			"title": "Junta-te à liga",
+			"description": "Compete, acompanha o teu progresso e posiciona-te entre os melhores atletas do mundo.",
+			"button": "Começar"
+		},
+		"sponsors": {
+			"trusted": "Apoiado por marcas e comunidades"
+		}
 	},
 	"navbar": {
 		"regulation": "Regulamento",

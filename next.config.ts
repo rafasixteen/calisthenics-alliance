@@ -1,9 +1,8 @@
 import createNextIntlPlugin from "next-intl/plugin";
 import type { NextConfig } from "next";
+import { getBasePath } from "@/lib/utils";
 
 const withNextIntl = createNextIntlPlugin();
-
-console.log("NEXT_PUBLIC_BASE_PATH", process.env.NEXT_PUBLIC_BASE_PATH);
 
 const nextConfig: NextConfig = {
 	reactCompiler: true,
@@ -11,8 +10,8 @@ const nextConfig: NextConfig = {
 	images: {
 		unoptimized: true,
 	},
-	basePath: process.env.NEXT_PUBLIC_BASE_PATH || "",
-	assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || "",
+	basePath: getBasePath(),
+	assetPrefix: getBasePath(),
 };
 
 export default withNextIntl(nextConfig);

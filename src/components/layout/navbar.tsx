@@ -1,3 +1,5 @@
+"use client";
+
 import { Link } from "@/i18n/navigation";
 import { useLocale, useTranslations } from "next-intl";
 import NextLink from "next/link";
@@ -18,7 +20,7 @@ export function Navbar() {
 
 				{/* Center: Links */}
 				<nav className="hidden justify-center gap-8 text-sm text-muted-foreground md:flex">
-					<NextLink 
+					<NextLink
 						href={`/regulations/${locale}.pdf`}
 						target="_blank"
 						rel="noopener noreferrer"
