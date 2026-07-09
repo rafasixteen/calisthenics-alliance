@@ -6,7 +6,7 @@ export function Hero() {
 
 	return (
 		<section className="flex min-h-[80vh] items-center bg-background px-6">
-			<div className="mx-auto grid w-full max-w-6xl grid-cols-1 items-center gap-12 md:grid-cols-2">
+			<div className="mx-auto grid w-full max-w-4xl grid-cols-1 items-center gap-12 md:grid-cols-2">
 				{/* Left */}
 				<div>
 					<h1 className="text-5xl font-semibold tracking-tight md:text-6xl">{translations("title")}</h1>
@@ -16,7 +16,13 @@ export function Hero() {
 						<Link
 							href="/rankings"
 							className="rounded-md bg-foreground px-5 py-2.5 text-sm text-background transition hover:opacity-90">
-							{translations("cta")}
+							{translations("rankings")}
+						</Link>
+
+						<Link
+							href="/events"
+							className="rounded-md bg-foreground px-5 py-2.5 text-sm text-background transition hover:opacity-90">
+							{translations("events")}
 						</Link>
 					</div>
 				</div>

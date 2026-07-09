@@ -7,7 +7,8 @@
 		"hero": {
 			"title": "Calisthenics Alliance League",
 			"description": "Uma liga competitiva global para atletas de calistenia. Rankings e eventos num só lugar.",
-			"cta": "Ver rankings"
+			"rankings": "Ver rankings",
+			"events": "Ver eventos"
 		},
 		"highlight": {
 			"title": "Competição real, rankings reais",
@@ -35,7 +36,8 @@
 	},
 	"navbar": {
 		"regulation": "Regulamento",
-		"rankings": "Classificações"
+		"rankings": "Classificações",
+		"events": "Eventos"
 	},
 	"footer": {
 		"copyright": "© {year} Calisthenics Alliance League. Todos os direitos reservados.",
