@@ -1,0 +1,83 @@
+{
+	"id": "regular-14",
+	"name": "Treino Elite - Battle 8",
+	"date": "2026-06-27",
+	"season": "junho",
+	"type": "regular",
+	"routines": [
+		{
+			"name": "Masculine",
+			"routine": ["Max Pull Ups (+20KG) in 1'"]
+		},
+		{
+			"name": "Feminine",
+			"routine": ["Max Pull Ups (+10KG) in 1'"]
+		}
+	],
+	"results": [
+		{
+			"athleteId": "il",
+			"reps": 23,
+			"time_seconds": 60,
+			"points": 90,
+			"won": true
+		},
+		{
+			"athleteId": "dc",
+			"reps": 17,
+			"time_seconds": 60,
+			"points": 30,
+			"won": false
+		},
+		{
+			"athleteId": "rr",
+			"reps": 16,
+			"time_seconds": 60,
+			"points": 65,
+			"won": true
+		},
+		{
+			"athleteId": "pf",
+			"reps": 13,
+			"time_seconds": 60,
+			"points": 60,
+			"won": true
+		},
+		{
+			"athleteId": "tf",
+			"reps": 13,
+			"time_seconds": 60,
+			"points": 60,
+			"won": true
+		},
+		{
+			"athleteId": "fc-1",
+			"reps": 12,
+			"time_seconds": 60,
+			"points": 10,
+			"won": false
+		},
+		{
+			"athleteId": "gd",
+			"reps": 12,
+			"time_seconds": 60,
+			"points": 10,
+			"won": false
+		},
+		{
+			"athleteId": "lr",
+			"reps": 12,
+			"time_seconds": 60,
+			"points": 10,
+			"won": false
+		},
+		{
+			"athleteId": "bl",
+			"reps": 8,
+			"time_seconds": 60,
+			"points": 90,
+			"won": true,
+			"note": "+10KG"
+		}
+	]
+}

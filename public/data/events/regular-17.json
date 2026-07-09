@@ -1,0 +1,82 @@
+{
+	"id": "regular-17",
+	"name": "Treino Elite - Battle 11",
+	"date": "2026-06-27",
+	"season": "junho",
+	"type": "regular",
+	"routines": [
+		{
+			"name": "5MD (Masculine)",
+			"routine": ["5 Pull Ups + 10 Push Ups x10"]
+		},
+		{
+			"name": "5MD (Feminine)",
+			"routine": ["5 Pull Ups + 10 Push Ups x5"]
+		}
+	],
+	"results": [
+		{
+			"athleteId": "il",
+			"reps": 200,
+			"time_seconds": 200,
+			"points": 90,
+			"won": true
+		},
+		{
+			"athleteId": "rr",
+			"reps": 200,
+			"time_seconds": 354,
+			"points": 70,
+			"won": true
+		},
+		{
+			"athleteId": "fc-1",
+			"reps": 200,
+			"time_seconds": 370,
+			"points": 65,
+			"won": true
+		},
+		{
+			"athleteId": "gd",
+			"reps": 200,
+			"time_seconds": 380,
+			"points": 60,
+			"won": true
+		},
+		{
+			"athleteId": "tf",
+			"reps": 200,
+			"time_seconds": 381,
+			"points": 10,
+			"won": false
+		},
+		{
+			"athleteId": "pf",
+			"reps": 200,
+			"time_seconds": 391,
+			"points": 10,
+			"won": false
+		},
+		{
+			"athleteId": "dc",
+			"reps": 200,
+			"time_seconds": 450,
+			"points": 10,
+			"won": false
+		},
+		{
+			"athleteId": "lr",
+			"reps": 200,
+			"time_seconds": 532,
+			"points": 10,
+			"won": false
+		},
+		{
+			"athleteId": "bl",
+			"reps": 75,
+			"time_seconds": 261,
+			"points": 90,
+			"won": true
+		}
+	]
+}

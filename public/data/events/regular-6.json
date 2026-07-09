@@ -1,0 +1,77 @@
+{
+	"id": "regular-6",
+	"name": "Treino Elite - Battle 6",
+	"date": "2026-05-16",
+	"season": "maio",
+	"type": "regular",
+	"routines": [
+		{
+			"name": "Battle 6 (Men)",
+			"routine": [
+				"50 Push Ups",
+				"30 Squats (20KG)",
+				"40 Push Ups",
+				"25 Squats (20KG)",
+				"30 Push Ups",
+				"20 Squats (20KG)",
+				"20 Push Ups",
+				"15 Squats (20KG)",
+				"10 Push Ups",
+				"10 Squats (20KG)"
+			]
+		},
+		{
+			"name": "Battle 6 (Women)",
+			"routine": [
+				"50 Push Ups",
+				"30 Squats (10KG)",
+				"40 Push Ups",
+				"25 Squats (10KG)",
+				"30 Push Ups",
+				"20 Squats (10KG)",
+				"20 Push Ups",
+				"15 Squats (10KG)",
+				"10 Push Ups",
+				"10 Squats (10KG)"
+			]
+		}
+	],
+	"results": [
+		{
+			"athleteId": "rr",
+			"reps": 250,
+			"time_seconds": 527,
+			"points": 90,
+			"won": true
+		},
+		{
+			"athleteId": "tf",
+			"reps": 250,
+			"time_seconds": 541,
+			"points": 70,
+			"won": true
+		},
+		{
+			"athleteId": "gd",
+			"reps": 250,
+			"time_seconds": 586,
+			"points": 25,
+			"won": false
+		},
+		{
+			"athleteId": "dc",
+			"reps": 250,
+			"time_seconds": 672,
+			"points": 20,
+			"won": false
+		},
+		{
+			"athleteId": "bl",
+			"reps": null,
+			"time_seconds": null,
+			"points": 90,
+			"won": true,
+			"note": "Não Cont."
+		}
+	]
+}

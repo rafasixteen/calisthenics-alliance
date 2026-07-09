@@ -1,0 +1,97 @@
+{
+	"id": "regular-16",
+	"name": "Treino Elite - Battle 10",
+	"date": "2026-06-27",
+	"season": "junho",
+	"type": "regular",
+	"routines": [
+		{
+			"name": "Championship 2026 - Qualifier (Masculine)",
+			"routine": [
+				"15 Pull Ups",
+				"20 Dips",
+				"30 Squats (20KG Vest)",
+				"40 Low-Bar Push Ups",
+				"10 Pull Ups",
+				"5 Muscle Ups"
+			]
+		},
+		{
+			"name": "Championship 2026 - Qualifier (Feminine)",
+			"routine": [
+				"5 Pull Ups",
+				"10 Dips",
+				"4 Pull Ups",
+				"15 Low-Bar Push Ups",
+				"30 Squats (10KG Vest)",
+				"3 Pull Ups",
+				"20 Low-Bar Push Ups"
+			]
+		}
+	],
+	"results": [
+		{
+			"athleteId": "il",
+			"reps": 120,
+			"time_seconds": 175,
+			"points": 90,
+			"won": true
+		},
+		{
+			"athleteId": "rr",
+			"reps": 120,
+			"time_seconds": 230,
+			"points": 70,
+			"won": true
+		},
+		{
+			"athleteId": "gd",
+			"reps": 120,
+			"time_seconds": 286,
+			"points": 65,
+			"won": true
+		},
+		{
+			"athleteId": "pf",
+			"reps": 120,
+			"time_seconds": 347,
+			"points": 60,
+			"won": true
+		},
+		{
+			"athleteId": "fc-1",
+			"reps": 120,
+			"time_seconds": 331,
+			"points": 10,
+			"won": false
+		},
+		{
+			"athleteId": "dc",
+			"reps": 120,
+			"time_seconds": 333,
+			"points": 10,
+			"won": false
+		},
+		{
+			"athleteId": "tf",
+			"reps": 120,
+			"time_seconds": 452,
+			"points": 10,
+			"won": false
+		},
+		{
+			"athleteId": "lr",
+			"reps": 120,
+			"time_seconds": 484,
+			"points": 10,
+			"won": false
+		},
+		{
+			"athleteId": "bl",
+			"reps": 87,
+			"time_seconds": 200,
+			"points": 90,
+			"won": true
+		}
+	]
+}

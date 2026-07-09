@@ -1,0 +1,82 @@
+{
+	"id": "junho",
+	"entries": [
+		{
+			"athleteId": "bl",
+			"rank": 1,
+			"wins": 4,
+			"losses": 0,
+			"points": 360
+		},
+		{
+			"athleteId": "il",
+			"rank": 1,
+			"wins": 10,
+			"losses": 0,
+			"points": 900
+		},
+		{
+			"athleteId": "rr",
+			"rank": 2,
+			"wins": 9,
+			"losses": 2,
+			"points": 675
+		},
+		{
+			"athleteId": "gd",
+			"rank": 3,
+			"wins": 7,
+			"losses": 4,
+			"points": 505
+		},
+		{
+			"athleteId": "dc",
+			"rank": 6,
+			"wins": 2,
+			"losses": 7,
+			"points": 225
+		},
+		{
+			"athleteId": "tf",
+			"rank": 7,
+			"wins": 3,
+			"losses": 5,
+			"points": 220
+		},
+		{
+			"athleteId": "fc-1",
+			"rank": 8,
+			"wins": 2,
+			"losses": 9,
+			"points": 205
+		},
+		{
+			"athleteId": "fc-2",
+			"rank": 5,
+			"wins": 5,
+			"losses": 0,
+			"points": 330
+		},
+		{
+			"athleteId": "jb",
+			"rank": 9,
+			"wins": 0,
+			"losses": 7,
+			"points": 70
+		},
+		{
+			"athleteId": "pf",
+			"rank": 4,
+			"wins": 6,
+			"losses": 5,
+			"points": 360
+		},
+		{
+			"athleteId": "lr",
+			"rank": 10,
+			"wins": 0,
+			"losses": 4,
+			"points": 40
+		}
+	]
+}

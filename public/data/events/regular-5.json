@@ -1,0 +1,96 @@
+{
+	"id": "regular-5",
+	"name": "Treino Elite - Battle 5",
+	"date": "2026-05-16",
+	"season": "maio",
+	"type": "regular",
+	"routines": [
+		{
+			"name": "Battle 5 (Men)",
+			"routine": [
+				"5 Muscle Ups + 5 Pull Ups",
+				"10 Pull Ups (20KG)",
+				"30 Dips (20KG)",
+				"4 Muscle Ups + 4 Pull Ups",
+				"10 Pull Ups (15KG)",
+				"30 Dips (15KG)",
+				"3 Muscle Ups + 3 Pull Ups",
+				"10 Pull Ups (10KG)",
+				"30 Dips (10KG)",
+				"2 Muscle Ups + 2 Pull Ups",
+				"30 Pull Ups",
+				"60 Push Ups",
+				"1 Muscle Up to 1 Pull Up"
+			]
+		},
+		{
+			"name": "Battle 5 (Women)",
+			"routine": [
+				"1 MU (EL. Vermelho)",
+				"10 Pull Ups (10KG)",
+				"30 Dips (10KG)",
+				"1 MU (EL. Vermelho)",
+				"10 Pull Ups (7.5KG)",
+				"30 Dips (7.5KG)",
+				"1 MU (EL. Vermelho)",
+				"10 Pull Ups (5KG)",
+				"30 Dips (5KG)",
+				"1 MU (EL. Vermelho)",
+				"30 Pull Ups",
+				"60 Push Ups",
+				"1 MU (EL. Vermelho)"
+			]
+		}
+	],
+	"results": [
+		{
+			"athleteId": "il",
+			"reps": 240,
+			"time_seconds": 852,
+			"points": 90,
+			"won": true
+		},
+		{
+			"athleteId": "rr",
+			"reps": 240,
+			"time_seconds": 1380,
+			"points": 70,
+			"won": true
+		},
+		{
+			"athleteId": "dc",
+			"reps": 240,
+			"time_seconds": 1478,
+			"points": 25,
+			"won": false
+		},
+		{
+			"athleteId": "tf",
+			"reps": 240,
+			"time_seconds": 1562,
+			"points": 60,
+			"won": true
+		},
+		{
+			"athleteId": "gd",
+			"reps": 240,
+			"time_seconds": 1618,
+			"points": 10,
+			"won": false
+		},
+		{
+			"athleteId": "fc-2",
+			"reps": 240,
+			"time_seconds": 1932,
+			"points": 10,
+			"won": false
+		},
+		{
+			"athleteId": "bl",
+			"reps": 240,
+			"time_seconds": 2391,
+			"points": 90,
+			"won": true
+		}
+	]
+}

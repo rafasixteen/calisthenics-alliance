@@ -1,0 +1,80 @@
+{
+	"id": "regular-12",
+	"name": "Treino Elite - Battle 6",
+	"date": "2026-06-20",
+	"season": "junho",
+	"type": "regular",
+	"routines": [
+		{
+			"name": "Championship 2026 - Semi-Final (Men Advanced)",
+			"routine": [
+				"40 Low-Bar Push Ups",
+				"30 Squats (20KG Vest)",
+				"20 Pull Ups",
+				"10 Dips",
+				"20 Pull Ups",
+				"30 Squats (20KG Vest)",
+				"40 Low-Bar Push Ups"
+			]
+		}
+	],
+	"results": [
+		{
+			"athleteId": "il",
+			"reps": 190,
+			"time_seconds": 306,
+			"points": 90,
+			"won": true
+		},
+		{
+			"athleteId": "rr",
+			"reps": 190,
+			"time_seconds": 375,
+			"points": 70,
+			"won": true
+		},
+		{
+			"athleteId": "gd",
+			"reps": 190,
+			"time_seconds": 445,
+			"points": 65,
+			"won": true
+		},
+		{
+			"athleteId": "dc",
+			"reps": 190,
+			"time_seconds": 538,
+			"points": 20,
+			"won": false
+		},
+		{
+			"athleteId": "tf",
+			"reps": 190,
+			"time_seconds": 539,
+			"points": 50,
+			"won": true
+		},
+		{
+			"athleteId": "fc-1",
+			"reps": 190,
+			"time_seconds": 616,
+			"points": 10,
+			"won": false
+		},
+		{
+			"athleteId": "jb",
+			"reps": 190,
+			"time_seconds": 624,
+			"points": 10,
+			"won": false
+		},
+		{
+			"athleteId": "pf",
+			"reps": 130,
+			"time_seconds": null,
+			"points": 10,
+			"won": false,
+			"note": "X 5'50\" até aos 20 PU (2° set)"
+		}
+	]
+}

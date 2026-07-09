@@ -1,0 +1,82 @@
+{
+	"id": "global",
+	"entries": [
+		{
+			"athleteId": "bl",
+			"rank": 1,
+			"wins": 10,
+			"losses": 0,
+			"points": 900
+		},
+		{
+			"athleteId": "il",
+			"rank": 1,
+			"wins": 14,
+			"losses": 0,
+			"points": 1260
+		},
+		{
+			"athleteId": "rr",
+			"rank": 2,
+			"wins": 13,
+			"losses": 4,
+			"points": 1010
+		},
+		{
+			"athleteId": "gd",
+			"rank": 3,
+			"wins": 9,
+			"losses": 8,
+			"points": 745
+		},
+		{
+			"athleteId": "dc",
+			"rank": 4,
+			"wins": 4,
+			"losses": 11,
+			"points": 445
+		},
+		{
+			"athleteId": "fc-2",
+			"rank": 5,
+			"wins": 6,
+			"losses": 1,
+			"points": 405
+		},
+		{
+			"athleteId": "tf",
+			"rank": 6,
+			"wins": 5,
+			"losses": 7,
+			"points": 380
+		},
+		{
+			"athleteId": "pf",
+			"rank": 7,
+			"wins": 6,
+			"losses": 5,
+			"points": 360
+		},
+		{
+			"athleteId": "fc-1",
+			"rank": 8,
+			"wins": 4,
+			"losses": 10,
+			"points": 315
+		},
+		{
+			"athleteId": "jb",
+			"rank": 9,
+			"wins": 0,
+			"losses": 10,
+			"points": 100
+		},
+		{
+			"athleteId": "lr",
+			"rank": 10,
+			"wins": 0,
+			"losses": 4,
+			"points": 40
+		}
+	]
+}

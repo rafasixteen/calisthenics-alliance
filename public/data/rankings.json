@@ -1,0 +1,91 @@
+[
+	{
+		"id": "jan-novak",
+		"name": "Jan Novak",
+		"country": "Czech Republic",
+		"countryCode": "CZ",
+		"avatar": "/athletes/jan-novak.jpg",
+		"points": 1480,
+		"events": 8,
+		"trend": "up",
+		"trendValue": 2
+	},
+	{
+		"id": "luca-rossi",
+		"name": "Luca Rossi",
+		"country": "Italy",
+		"countryCode": "IT",
+		"avatar": "/athletes/luca-rossi.jpg",
+		"points": 1415,
+		"events": 9,
+		"trend": "same",
+		"trendValue": 0
+	},
+	{
+		"id": "rafael-silva",
+		"name": "Rafael Silva",
+		"country": "Brazil",
+		"countryCode": "BR",
+		"avatar": "/athletes/rafael-silva.jpg",
+		"points": 1372,
+		"events": 7,
+		"trend": "down",
+		"trendValue": 1
+	},
+	{
+		"id": "alex-smith",
+		"name": "Alex Smith",
+		"country": "United States",
+		"countryCode": "US",
+		"avatar": "/athletes/alex-smith.jpg",
+		"points": 1298,
+		"events": 8,
+		"trend": "up",
+		"trendValue": 3
+	},
+	{
+		"id": "mateo-garcia",
+		"rank": 5,
+		"name": "Mateo Garcia",
+		"country": "Spain",
+		"countryCode": "ES",
+		"avatar": "/athletes/mateo-garcia.jpg",
+		"points": 1267,
+		"events": 6,
+		"trend": "down",
+		"trendValue": 1
+	},
+	{
+		"id": "james-walker",
+		"name": "James Walker",
+		"country": "United Kingdom",
+		"countryCode": "GB",
+		"avatar": "/athletes/james-walker.jpg",
+		"points": 1219,
+		"events": 7,
+		"trend": "same",
+		"trendValue": 0
+	},
+	{
+		"id": "leo-martin",
+		"name": "Leo Martin",
+		"country": "France",
+		"countryCode": "FR",
+		"avatar": "/athletes/leo-martin.jpg",
+		"points": 1178,
+		"events": 5,
+		"trend": "up",
+		"trendValue": 4
+	},
+	{
+		"id": "tomasz-kowalski",
+		"name": "Tomasz Kowalski",
+		"country": "Poland",
+		"countryCode": "PL",
+		"avatar": "/athletes/tomasz-kowalski.jpg",
+		"points": 1142,
+		"events": 6,
+		"trend": "down",
+		"trendValue": 2
+	}
+]

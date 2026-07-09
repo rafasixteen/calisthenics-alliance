@@ -1,0 +1,81 @@
+{
+	"id": "regular-8",
+	"name": "Treino Elite - Battle 2",
+	"date": "2026-06-06",
+	"season": "junho",
+	"type": "regular",
+	"routines": [
+		{
+			"name": "Championship 2026 - Quarter-Final (Men Elite)",
+			"routine": [
+				"1 Muscle Up + 10 SBD's + 10 Pull Ups",
+				"20 Low-Bar Push Ups",
+				"20 Squats (20KG Vest)",
+				"2 Muscle Ups + 10 SBD's + 10 Pull Ups",
+				"30 Dips (+10KG)",
+				"20 Squats (20KG Vest)",
+				"3 Muscle Ups + 10 SBD's + 10 Pull Ups",
+				"30 Low-Bar Push Ups",
+				"10 Pull Ups (+10KG)"
+			]
+		}
+	],
+	"results": [
+		{
+			"athleteId": "il",
+			"reps": 196,
+			"time_seconds": 360,
+			"points": 90,
+			"won": true
+		},
+		{
+			"athleteId": "rr",
+			"reps": 196,
+			"time_seconds": 579,
+			"points": 70,
+			"won": true
+		},
+		{
+			"athleteId": "gd",
+			"reps": 196,
+			"time_seconds": 595,
+			"points": 65,
+			"won": true
+		},
+		{
+			"athleteId": "pf",
+			"reps": 196,
+			"time_seconds": 641,
+			"points": 20,
+			"won": false
+		},
+		{
+			"athleteId": "fc-2",
+			"reps": 196,
+			"time_seconds": 655,
+			"points": 50,
+			"won": true
+		},
+		{
+			"athleteId": "dc",
+			"reps": 196,
+			"time_seconds": 786,
+			"points": 10,
+			"won": false
+		},
+		{
+			"athleteId": "fc-1",
+			"reps": 196,
+			"time_seconds": 940,
+			"points": 10,
+			"won": false
+		},
+		{
+			"athleteId": "jb",
+			"reps": 196,
+			"time_seconds": 1102,
+			"points": 10,
+			"won": false
+		}
+	]
+}

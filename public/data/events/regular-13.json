@@ -1,0 +1,80 @@
+{
+	"id": "regular-13",
+	"name": "Treino Elite - Battle 7",
+	"date": "2026-06-20",
+	"season": "junho",
+	"type": "regular",
+	"routines": [
+		{
+			"name": "Championship 2026 - Final (Men Advanced)",
+			"routine": [
+				"15 Pull Ups",
+				"20 Squats (20KG Vest)",
+				"25 Dips",
+				"30 Pull Ups",
+				"30 Low-Bar Push Ups",
+				"25 Squats (20KG Vest)",
+				"25 Dips",
+				"15 Pull Ups"
+			]
+		}
+	],
+	"results": [
+		{
+			"athleteId": "il",
+			"reps": 185,
+			"time_seconds": 328,
+			"points": 90,
+			"won": true
+		},
+		{
+			"athleteId": "fc-2",
+			"reps": 185,
+			"time_seconds": 469,
+			"points": 70,
+			"won": true
+		},
+		{
+			"athleteId": "rr",
+			"reps": 185,
+			"time_seconds": 501,
+			"points": 65,
+			"won": true
+		},
+		{
+			"athleteId": "tf",
+			"reps": 185,
+			"time_seconds": 672,
+			"points": 20,
+			"won": false
+		},
+		{
+			"athleteId": "pf",
+			"reps": 185,
+			"time_seconds": 674,
+			"points": 50,
+			"won": true
+		},
+		{
+			"athleteId": "gd",
+			"reps": 185,
+			"time_seconds": 694,
+			"points": 10,
+			"won": false
+		},
+		{
+			"athleteId": "fc-1",
+			"reps": 185,
+			"time_seconds": 820,
+			"points": 10,
+			"won": false
+		},
+		{
+			"athleteId": "jb",
+			"reps": 185,
+			"time_seconds": 944,
+			"points": 10,
+			"won": false
+		}
+	]
+}

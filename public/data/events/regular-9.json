@@ -1,0 +1,67 @@
+{
+	"id": "regular-9",
+	"name": "Treino Elite - Battle 3",
+	"date": "2026-06-06",
+	"season": "junho",
+	"type": "regular",
+	"routines": [
+		{
+			"name": "Championship 2026 - Semi-Final (Men Elite)",
+			"routine": [
+				"10 Pull Ups + 1 Muscle Up + 10 SBD's",
+				"20 Squats (20KG Vest)",
+				"15 Pull Ups + 2 Muscle Ups + 15 SBD's",
+				"20 Squats (20KG Vest)",
+				"20 Pull Ups + 3 Muscle Ups + 20 SBD's",
+				"30 Dips (+15KG)",
+				"15 Pull Ups (+15KG)",
+				"40 Low-Bar Push Ups",
+				"5 Muscle Ups"
+			]
+		}
+	],
+	"results": [
+		{
+			"athleteId": "fc-2",
+			"reps": 226,
+			"time_seconds": 990,
+			"points": 90,
+			"won": true
+		},
+		{
+			"athleteId": "gd",
+			"reps": 226,
+			"time_seconds": 1008,
+			"points": 70,
+			"won": true
+		},
+		{
+			"athleteId": "rr",
+			"reps": 226,
+			"time_seconds": 1173,
+			"points": 25,
+			"won": false
+		},
+		{
+			"athleteId": "pf",
+			"reps": 226,
+			"time_seconds": 1383,
+			"points": 20,
+			"won": false
+		},
+		{
+			"athleteId": "fc-1",
+			"reps": 226,
+			"time_seconds": 1545,
+			"points": 50,
+			"won": true
+		},
+		{
+			"athleteId": "jb",
+			"reps": 226,
+			"time_seconds": 2150,
+			"points": 10,
+			"won": false
+		}
+	]
+}

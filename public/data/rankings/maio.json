@@ -1,0 +1,68 @@
+{
+	"id": "maio",
+	"entries": [
+		{
+			"athleteId": "bl",
+			"rank": 1,
+			"wins": 6,
+			"losses": 0,
+			"points": 540
+		},
+		{
+			"athleteId": "il",
+			"rank": 1,
+			"wins": 4,
+			"losses": 0,
+			"points": 360
+		},
+		{
+			"athleteId": "rr",
+			"rank": 2,
+			"wins": 4,
+			"losses": 2,
+			"points": 335
+		},
+		{
+			"athleteId": "gd",
+			"rank": 3,
+			"wins": 2,
+			"losses": 4,
+			"points": 240
+		},
+		{
+			"athleteId": "dc",
+			"rank": 4,
+			"wins": 2,
+			"losses": 4,
+			"points": 220
+		},
+		{
+			"athleteId": "tf",
+			"rank": 5,
+			"wins": 2,
+			"losses": 2,
+			"points": 160
+		},
+		{
+			"athleteId": "fc-1",
+			"rank": 6,
+			"wins": 2,
+			"losses": 1,
+			"points": 110
+		},
+		{
+			"athleteId": "fc-2",
+			"rank": 7,
+			"wins": 1,
+			"losses": 1,
+			"points": 75
+		},
+		{
+			"athleteId": "jb",
+			"rank": 8,
+			"wins": 0,
+			"losses": 3,
+			"points": 30
+		}
+	]
+}

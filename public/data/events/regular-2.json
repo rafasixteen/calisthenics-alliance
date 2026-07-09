@@ -1,0 +1,98 @@
+{
+	"id": "regular-2",
+	"name": "Treino Elite - Battle 2",
+	"date": "2026-05-09",
+	"season": "maio",
+	"type": "regular",
+	"routines": [
+		{
+			"name": "Battle 2 (Men)",
+			"routine": [
+				"30 Squats (20KG)",
+				"30 Push Ups",
+				"20 Squats (20KG)",
+				"20 Push Ups",
+				"10 Pull Ups (20KG)",
+				"20 Dips (20KG)",
+				"10 Pull Ups (15KG)",
+				"20 Dips (15KG)",
+				"10 Pull Ups (10KG)",
+				"10 Dips (10KG)",
+				"5 Muscle Ups"
+			]
+		},
+		{
+			"name": "Battle 2 (Women)",
+			"routine": [
+				"30 Squats (10KG)",
+				"30 Push Ups",
+				"20 Squats (10KG)",
+				"20 Push Ups",
+				"10 Pull Ups",
+				"20 Dips",
+				"10 Pull Ups",
+				"20 Dips",
+				"10 Pull Ups",
+				"10 Dips",
+				"5 Muscle Ups"
+			]
+		}
+	],
+	"results": [
+		{
+			"athleteId": "il",
+			"reps": 185,
+			"time_seconds": 512,
+			"points": 90,
+			"won": true
+		},
+		{
+			"athleteId": "gd",
+			"reps": 185,
+			"time_seconds": 800,
+			"points": 70,
+			"won": true
+		},
+		{
+			"athleteId": "rr",
+			"reps": 185,
+			"time_seconds": 816,
+			"points": 25,
+			"won": false
+		},
+		{
+			"athleteId": "dc",
+			"reps": 185,
+			"time_seconds": 950,
+			"points": 60,
+			"won": true
+		},
+		{
+			"athleteId": "fc-1",
+			"reps": 185,
+			"time_seconds": 1259,
+			"points": 10,
+			"won": false
+		},
+		{
+			"athleteId": "jb",
+			"reps": 185,
+			"time_seconds": 1702,
+			"points": 10,
+			"won": false
+		},
+		{
+			"athleteId": "tf",
+			"reps": 185,
+			"time_seconds": 653,
+			"note": "Não Lutou na Battle 1"
+		},
+		{
+			"athleteId": "bl",
+			"reps": 185,
+			"time_seconds": 1028,
+			"points": 90,
+			"won": true
+		}
+	]
+}

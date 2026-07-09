@@ -1,0 +1,68 @@
+[
+	{
+		"id": "bl",
+		"name": "Beatriz Lopes",
+		"country": "BR",
+		"avatar": "/athletes/beatriz-lopes.png"
+	},
+	{
+		"id": "il",
+		"name": "Iúri Lage",
+		"country": "PT",
+		"avatar": "/athletes/iuri-lage.png"
+	},
+	{
+		"id": "rr",
+		"name": "Rafael Rego",
+		"country": "PT",
+		"avatar": "/athletes/rafael-rego.png"
+	},
+	{
+		"id": "gd",
+		"name": "Gustavo Dias",
+		"country": "PT",
+		"avatar": "/athletes/gustavo-dias.png"
+	},
+	{
+		"id": "dc",
+		"name": "Diogo Chaves",
+		"country": "PT",
+		"avatar": "/athletes/diogo-chaves.png"
+	},
+	{
+		"id": "tf",
+		"name": "Tomás Ferreira",
+		"country": "PT",
+		"avatar": "/athletes/tomas-ferreira.png"
+	},
+	{
+		"id": "fc-1",
+		"name": "Francisco Cardeal",
+		"country": "PT",
+		"avatar": "/athletes/francisco-cardeal.png"
+	},
+	{
+		"id": "fc-2",
+		"name": "Francisco Custódio",
+		"country": "PT",
+		"avatar": "/athletes/francisco-custodio.png"
+	},
+	{
+		"id": "jb",
+		"name": "João Barosa",
+		"country": "PT",
+		"avatar": "/athletes/joao-barosa.png"
+	},
+	{
+		"id": "pf",
+		"name": "Pedro Franco",
+		"country": "PT",
+		"avatar": "/athletes/pedro-franco.png"
+	},
+	{
+		"id": "lr",
+		"name": "Lucas Rodrigues",
+		"country": "BR",
+		"avatar": "/athletes/lucas-rodrigues.png"
+	}
+]
