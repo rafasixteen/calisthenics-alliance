@@ -1,16 +1,19 @@
 /**
- * Returns the application's configured base path.
+ * Returns the configured base path for the application.
  *
- * In development, an empty string is always returned so URLs resolve
- * correctly when running locally. In production, the base path is read
- * from the `NEXT_PUBLIC_BASE_PATH` environment variable.
+ * The base path is read from the NEXT_PUBLIC_BASE_PATH environment variable.
+ * If the variable is not set or is empty, an empty string is returned.
+ * Any trailing slashes are removed to ensure the value can be safely
+ * concatenate with application routes and asset paths.
  */
 export function getBasePath() {
-	if (process.env.NODE_ENV === "production") {
-		return process.env.NEXT_PUBLIC_BASE_PATH || "";
+	const basePath = process.env.NEXT_PUBLIC_BASE_PATH?.trim() ?? "";
+
+	if (!basePath) {
+		return "";
 	}
 
-	return "";
+	return basePath.replace(/\/+$/, "");
 }
 
 /**

@@ -1,10 +1,4 @@
 import { Button } from "@/components/ui/button";
-import {
-	DropdownMenu,
-	DropdownMenuContent,
-	DropdownMenuItem,
-	DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
 import { Column } from "@tanstack/react-table";
 import { ArrowDown, ArrowUp, ChevronsUpDown } from "lucide-react";
 
@@ -22,30 +16,22 @@ export function DataTableColumnHeader<TData, TValue>({
 		return <div {...props}>{title}</div>;
 	}
 
+	const sorted = column.getIsSorted();
+
+	function cycleSorting() {
+		if (sorted === false) {
+			column.toggleSorting(false);
+		} else if (sorted === "asc") {
+			column.toggleSorting(true);
+		} else {
+			column.clearSorting();
+		}
+	}
+
 	return (
-		<DropdownMenu modal={false}>
-			<DropdownMenuTrigger asChild>
-				<Button variant="ghost" size="sm" className="data-[state=open]:bg-accent">
-					<div {...props}>{title}</div>
-					{column.getIsSorted() === "desc" ? (
-						<ArrowDown />
-					) : column.getIsSorted() === "asc" ? (
-						<ArrowUp />
-					) : (
-						<ChevronsUpDown />
-					)}
-				</Button>
-			</DropdownMenuTrigger>
-			<DropdownMenuContent align="start">
-				<DropdownMenuItem onClick={() => column.toggleSorting(false)}>
-					<ArrowUp className="size-3.5 text-muted-foreground/70" />
-					Asc
-				</DropdownMenuItem>
-				<DropdownMenuItem onClick={() => column.toggleSorting(true)}>
-					<ArrowDown className="size-3.5 text-muted-foreground/70" />
-					Desc
-				</DropdownMenuItem>
-			</DropdownMenuContent>
-		</DropdownMenu>
+		<Button variant="ghost" size="sm" onClick={cycleSorting}>
+			<div {...props}>{title}</div>
+			{sorted === "desc" ? <ArrowDown /> : sorted === "asc" ? <ArrowUp /> : <ChevronsUpDown />}
+		</Button>
 	);
 }
