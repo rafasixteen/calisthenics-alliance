@@ -5,7 +5,8 @@ import { getAthletes } from "@/lib/athletes";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
-import { CalendarDays, ListOrdered } from "lucide-react";
+import { CalendarDays } from "lucide-react";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
 export async function generateStaticParams() {
 	const events = await getEvents();
@@ -17,6 +18,7 @@ export async function generateStaticParams() {
 
 interface Params {
 	id: string;
+	locale: string;
 }
 
 interface Props {
@@ -24,8 +26,10 @@ interface Props {
 }
 
 export default async function EventPage({ params }: Props) {
-	const { id } = await params;
+	const { id, locale } = await params;
+	setRequestLocale(locale);
 
+	const translations = await getTranslations("events");
 	const event = await getEvent(id);
 	const athletes = await getAthletes();
 
@@ -33,7 +37,7 @@ export default async function EventPage({ params }: Props) {
 		notFound();
 	}
 
-	const date = new Intl.DateTimeFormat("en-GB", {
+	const date = new Intl.DateTimeFormat(locale, {
 		dateStyle: "full",
 	}).format(new Date(event.date));
 
@@ -46,7 +50,9 @@ export default async function EventPage({ params }: Props) {
 						<Badge variant="secondary" className="tracking-wide uppercase">
 							{event.type}
 						</Badge>
-						<span className="text-sm text-muted-foreground">Season {event.season}</span>
+						<span className="text-sm text-muted-foreground">
+							{translations("season", { season: event.season })}
+						</span>
 					</div>
 
 					<h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">{event.name}</h1>
@@ -86,7 +92,7 @@ export default async function EventPage({ params }: Props) {
 			<Separator className="my-8 sm:my-10" />
 
 			<section className="space-y-4">
-				<h2 className="text-lg font-semibold">Results</h2>
+				<h2 className="text-lg font-semibold">{translations("results")}</h2>
 				<EventResults event={event} athletes={athletes} />
 			</section>
 		</main>

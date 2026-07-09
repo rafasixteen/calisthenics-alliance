@@ -6,6 +6,7 @@ import type { EventData } from "@/lib/events";
 import type { Athlete } from "@/lib/athletes";
 import { getCoreRowModel, getSortedRowModel, SortingState, useReactTable } from "@tanstack/react-table";
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 interface Props {
 	event: EventData;
@@ -21,6 +22,7 @@ export function EventResults({ event, athletes }: Props) {
 		data: event.results,
 		columns: getColumns({
 			athletes: athleteMap,
+			translations: useTranslations("events.table"),
 		}),
 		state: {
 			sorting,
