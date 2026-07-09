@@ -59,7 +59,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
 				<NextIntlClientProvider locale={locale}>
 					<ThemeProvider>
 						<Navbar />
-						<main className="flex flex-1 flex-col pt-16">{children}</main>
+						<div className="flex flex-1 flex-col pt-16">{children}</div>
 						<Footer />
 					</ThemeProvider>
 				</NextIntlClientProvider>
