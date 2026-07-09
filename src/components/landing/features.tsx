@@ -6,7 +6,7 @@ export function Features() {
 
 	return (
 		<section className="px-6 py-20">
-			<div className="mx-auto max-w-6xl">
+			<div className="mx-auto max-w-4xl">
 				<h2 className="text-center text-3xl font-semibold tracking-tight">{translations("title")}</h2>
 
 				<div className="mt-12 flex flex-col justify-center gap-6 md:flex-row">

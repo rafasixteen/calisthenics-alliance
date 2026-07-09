@@ -26,7 +26,7 @@ export function Sponsors() {
 
 	return (
 		<section className="border-t border-border/60">
-			<div className="mx-auto max-w-6xl px-4 py-14">
+			<div className="mx-auto max-w-4xl px-4 py-14">
 				<p className="text-center text-xs font-medium tracking-[0.25em] text-muted-foreground uppercase">
 					{translations("trusted")}
 				</p>
