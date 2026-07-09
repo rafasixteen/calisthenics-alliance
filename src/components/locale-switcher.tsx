@@ -19,7 +19,11 @@ const localeLabels: Record<string, string> = {
 	pt: "Português",
 };
 
-export function LocaleSwitcher() {
+interface LocaleSwitcherProps {
+	label?: string;
+}
+
+export function LocaleSwitcher({ label }: LocaleSwitcherProps) {
 	const locale = useLocale();
 	const pathname = usePathname();
 	const router = useRouter();
@@ -35,9 +39,12 @@ export function LocaleSwitcher() {
 	return (
 		<DropdownMenu modal={false}>
 			<DropdownMenuTrigger asChild>
-				<Button variant="ghost" size="icon" className="h-9 w-9" disabled={isPending}>
-					<Languages className="h-[1.2rem] w-[1.2rem]" />
-					<span className="sr-only">Switch locale</span>
+				<Button
+					variant="ghost"
+					disabled={isPending}
+					className={cn(label ? "w-full justify-start gap-2 px-3" : "h-9 w-9", !label && "size-9")}>
+					<Languages className="h-[1.2rem] w-[1.2rem] shrink-0" />
+					{label ? <span className="text-sm">{label}</span> : <span className="sr-only">Switch locale</span>}
 				</Button>
 			</DropdownMenuTrigger>
 			<DropdownMenuContent align="end">

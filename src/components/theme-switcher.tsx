@@ -12,7 +12,11 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { cn } from "@/lib/cn";
 
-export function ThemeSwitcher() {
+interface ThemeSwitcherProps {
+	label?: string;
+}
+
+export function ThemeSwitcher({ label }: ThemeSwitcherProps) {
 	const { theme, setTheme } = useTheme();
 	const [mounted, setMounted] = useState(false);
 
@@ -27,10 +31,10 @@ export function ThemeSwitcher() {
 	return (
 		<DropdownMenu modal={false}>
 			<DropdownMenuTrigger asChild>
-				<Button variant="ghost" size="icon" className="h-9 w-9">
-					<Sun className="h-[1.2rem] w-[1.2rem] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
-					<Moon className="absolute h-[1.2rem] w-[1.2rem] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0" />
-					<span className="sr-only">Toggle theme</span>
+				<Button variant="ghost" className={cn(label ? "w-full justify-start gap-2 px-3" : "size-9")}>
+					<Sun className="h-[1.2rem] w-[1.2rem] shrink-0 scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
+					<Moon className="absolute h-[1.2rem] w-[1.2rem] shrink-0 scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0" />
+					{label ? <span className="text-sm">{label}</span> : <span className="sr-only">Toggle theme</span>}
 				</Button>
 			</DropdownMenuTrigger>
 			<DropdownMenuContent align="end">

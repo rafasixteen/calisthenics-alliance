@@ -37,7 +37,11 @@
 	"navbar": {
 		"regulation": "Regulamento",
 		"rankings": "Classificações",
-		"events": "Eventos"
+		"events": "Eventos",
+		"preferences": "Preferências",
+		"openMenu": "Abrir menu",
+		"language": "Idioma",
+		"theme": "Tema"
 	},
 	"footer": {
 		"copyright": "© {year} Calisthenics Alliance League. Todos os direitos reservados.",
