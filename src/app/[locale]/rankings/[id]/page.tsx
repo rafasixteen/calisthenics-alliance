@@ -31,7 +31,6 @@ export default async function RankingPage({ params }: Props) {
 
 	return (
 		<main className="mx-auto max-w-4xl px-4 py-10 sm:px-6 sm:py-16">
-			<h2 className="text-lg font-semibold">Results</h2>
 			<RankingResults ranking={ranking} athletes={athletes} />
 		</main>
 	);

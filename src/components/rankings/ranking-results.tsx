@@ -6,6 +6,7 @@ import type { Athlete } from "@/lib/athletes";
 import { getCoreRowModel, getSortedRowModel, SortingState, useReactTable } from "@tanstack/react-table";
 import { useState } from "react";
 import { Ranking } from "@/lib/rankings";
+import { useTranslations } from "next-intl";
 
 interface Props {
 	ranking: Ranking;
@@ -21,6 +22,7 @@ export function RankingResults({ ranking, athletes }: Props) {
 		data: ranking.entries,
 		columns: getColumns({
 			athletes: athleteMap,
+			translations: useTranslations("rankings.table"),
 		}),
 		state: {
 			sorting,

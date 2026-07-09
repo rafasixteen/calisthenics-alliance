@@ -47,5 +47,17 @@
 	},
 	"notFound": {
 		"title": "Página Não Encontrada"
+	},
+	"rankings": {
+		"title": "Classificações",
+		"season": "Época",
+		"seasons": "{count, plural, =0 {Nenhuma época} one {# época} other {# épocas}}",
+		"table": {
+			"rank": "Posição",
+			"athlete": "Atleta",
+			"wins": "Vitórias",
+			"losses": "Derrotas",
+			"points": "Pontos"
+		}
 	}
 }
