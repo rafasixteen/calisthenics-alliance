@@ -6,18 +6,18 @@
 	"home": {
 		"hero": {
 			"title": "Calisthenics Alliance League",
-			"description": "Uma liga competitiva global para atletas de calistenia. Rankings e eventos num só lugar.",
-			"rankings": "Ver rankings",
+			"description": "Uma liga competitiva global para atletas de calistenia. Classificações e eventos num só lugar.",
+			"rankings": "Ver classificações",
 			"events": "Ver eventos"
 		},
 		"highlight": {
-			"title": "Competição real, rankings reais",
-			"description": "A CAL traz estrutura às competições de calistenia com pontuação padronizada e rankings."
+			"title": "Competição real, classificações reais",
+			"description": "A CAL traz estrutura às competições de calistenia com pontuação padronizada e classificações."
 		},
 		"features": {
 			"title": "Criado para atletas e competições",
 			"rankings": {
-				"title": "Rankings",
+				"title": "Classificações",
 				"description": "Acompanha o desempenho dos atletas em competições oficiais."
 			},
 			"events": {
