@@ -17,7 +17,7 @@ const sponsors: Sponsor[] = [
 	},
 	{
 		name: "GORNATION",
-		src: "https://www.gornation.com/cdn/shop/files/GOR_LOGO_SCHRIFT_WHITE_220x.png?v=1657115144",
+		src: "https://www.gornation.com/cdn/shop/files/GOR_LOGO_SCHRIFT_WHITE_250x.png?v=1657115144",
 	},
 ];
 
@@ -25,36 +25,34 @@ export function Sponsors() {
 	const translations = useTranslations("home.sponsors");
 
 	return (
-		<section className="border-t border-border/60">
-			<div className="mx-auto max-w-4xl px-4 py-14">
-				<p className="text-center text-xs font-medium tracking-[0.25em] text-muted-foreground uppercase">
-					{translations("trusted")}
-				</p>
+		<section className="border-t px-4 py-10">
+			<p className="text-center text-xs font-medium tracking-[0.25em] text-muted-foreground uppercase">
+				{translations("trusted")}
+			</p>
 
-				<div className="mt-8">
-					{/* Mobile */}
-					<div className="md:hidden">
-						<Marquee>
-							<MarqueeContent
-								autoFill={sponsors.length > 2}
-								play={sponsors.length > 2}
-								speed={50}
-								className="overflow-hidden">
-								{sponsors.map((sponsor) => (
-									<MarqueeItem key={sponsor.name}>
-										<SponsorLogo sponsor={sponsor} />
-									</MarqueeItem>
-								))}
-							</MarqueeContent>
-						</Marquee>
-					</div>
+			<div className="mt-8">
+				{/* Mobile */}
+				<div className="md:hidden">
+					<Marquee>
+						<MarqueeContent
+							speed={50}
+							pauseOnClick={false}
+							pauseOnHover={false}
+							className="overflow-hidden">
+							{sponsors.map((sponsor) => (
+								<MarqueeItem key={sponsor.name}>
+									<SponsorLogo sponsor={sponsor} />
+								</MarqueeItem>
+							))}
+						</MarqueeContent>
+					</Marquee>
+				</div>
 
-					{/* Desktop */}
-					<div className="hidden flex-wrap items-center justify-center gap-x-12 gap-y-8 md:flex">
-						{sponsors.map((sponsor) => (
-							<SponsorLogo key={sponsor.name} sponsor={sponsor} />
-						))}
-					</div>
+				{/* Desktop */}
+				<div className="hidden flex-wrap items-center justify-center gap-x-12 gap-y-8 md:flex">
+					{sponsors.map((sponsor) => (
+						<SponsorLogo key={sponsor.name} sponsor={sponsor} />
+					))}
 				</div>
 			</div>
 		</section>

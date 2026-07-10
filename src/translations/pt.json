@@ -21,8 +21,8 @@
 				"description": "Acompanha o desempenho dos atletas em competições oficiais."
 			},
 			"events": {
-				"title": "Eventos ao Vivo",
-				"description": "Segue competições e resultados em tempo real."
+				"title": "Eventos",
+				"description": "Veja competições, rotinas e resultados."
 			}
 		},
 		"cta": {

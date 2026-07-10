@@ -21,8 +21,8 @@
 				"description": "Track athlete performance across official competitions."
 			},
 			"events": {
-				"title": "Live Events",
-				"description": "Follow competitions and results in real time."
+				"title": "Events",
+				"description": "View competitions, routines, and results."
 			}
 		},
 		"cta": {
